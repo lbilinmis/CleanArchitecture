@@ -19,7 +19,7 @@ var builder = WebApplication.CreateBuilder(args);
     //servisini kullanýyorum
     builder.Services.
         AddApplication().
-        AddInfrastructure();
+        AddInfrastructure(builder.Configuration);
 
 }
 
