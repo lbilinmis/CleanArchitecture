@@ -1,0 +1,30 @@
+Ýlk Bölüm
+
+1-CleanArchitecture.Contracts  katmanýnda 
+	AuthenticationResponse
+	LoginRequest
+	RegisterRequest  record tanýmlamalarý yapýldý.
+2-CleanArchitecture.WebAPI katmanýnda
+	Login ve Register Action metodlarýmýz oluþturuldu.
+
+3-CleanArchitecture.Application katmanýnda
+	IAuthenticationService interface'i
+	IAuthenticationService implemente eden AuthenticationService class dosyasý
+	AuthenticationResult record tanýmlamasý yapýldý
+
+4-CleanArchitecture.WebAPI katmanýnda
+	Oluþturulan action metodlarý oluþturulmaya çalýþýldý
+
+5-CleanArchitecture.Application katmanýnda
+	DependencyInjection class ý oluþtutulup program.cs dosyasýnda dependency iþlemleri otomatize edildi.
+
+6-CleanArchitecture.DependencyInjection katmanýnda
+	DependencyInjection class ý oluþtutulup program.cs dosyasýnda dependency iþlemleri otomatize edildi.
+
+
+	Ýkinci Bölüm
+
+
+
+
+
